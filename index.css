@@ -20,11 +20,9 @@
 }
 
 .center {
-  position: absolute;
-  /* top: 50px;*/
-  left: 30%; 
-  height: 299px;
-  width: auto;
+  margin: 0 auto;
+  height: 300px;
+  width: fit-content;
   background: #fff;
   border-radius: 3px;
   overflow: hidden;
