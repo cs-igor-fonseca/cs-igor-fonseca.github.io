@@ -115,7 +115,7 @@
 }
 .stats .box {
   box-sizing: border-box;
-  width: 120px;
+  width: 100px;
   height: 99px;
   background: #333;
   text-align: center;
@@ -171,6 +171,11 @@
 }
 
 .githubLogo{
-  width: 15%;
-  position: relative;
+    width: 15%;
+}
+
+@media screen and (max-width: 495px) { 
+    .githubLogo{
+        width: 25%;
+    }
 }
