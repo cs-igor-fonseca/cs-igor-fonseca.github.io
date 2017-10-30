@@ -169,3 +169,8 @@
     display: none;
     margin: 0px 10px 0px 10px;
 }
+
+.githubLogo{
+  width: 15%;
+  position: relative;
+}
